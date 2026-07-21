@@ -1,4 +1,4 @@
-package rampexday7hometask;
+package rampexday7.hometask;
 
 
     import java.util.Scanner;

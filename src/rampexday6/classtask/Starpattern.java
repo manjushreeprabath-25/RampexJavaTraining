@@ -1,4 +1,4 @@
-package rampexday6;
+package rampexday6.classtask;
 
 class Starpattern {
     public static void main(String[]args){

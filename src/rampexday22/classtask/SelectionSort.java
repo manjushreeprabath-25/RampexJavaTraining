@@ -1,6 +1,5 @@
 package rampexday22.classtask;
 
-
 import java.util.Arrays;
 
 public class SelectionSort {

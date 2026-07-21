@@ -1,4 +1,4 @@
-package rampexday6;
+package rampexday6.classtask;
 
 public class Schedule {
     public static void main(String[] args){

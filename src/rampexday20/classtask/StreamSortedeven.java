@@ -1,4 +1,4 @@
-package rampeday20.classtask;
+package rampexday20.classtask;
 
 import java.util.Arrays;
 

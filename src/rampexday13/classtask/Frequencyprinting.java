@@ -4,7 +4,7 @@ package rampexday13.classtask;
 
 import java.util.Scanner;
 
-    public class Wordcount {
+    public class Frequencyprinting {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
