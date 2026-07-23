@@ -103,7 +103,6 @@ class LinkList {
     public boolean isEmpty() {
         return head == null;
     }
-
     class Node {
         int val;
         Node next;

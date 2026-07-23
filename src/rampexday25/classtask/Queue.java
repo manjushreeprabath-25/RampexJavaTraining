@@ -6,19 +6,18 @@ package rampexday25.classtask;
 
 // creating a QUeue using array
 
-        int arr[] ;
-
+       int arr[] ;
         int size;
         int front;
         int rear;
 
         Queue(){
-
             arr = new int[5];
             size =0;
             front =-1;
             rear =-1;
         }
+
 
 // creating the methods for the queue
 
@@ -31,7 +30,8 @@ package rampexday25.classtask;
 
             if(rear ==arr.length-1){
                 System.out.println(" Queue is full");
-                return;}
+                return;
+            }
 
             rear++;
             arr[rear]=val;
@@ -78,14 +78,11 @@ package rampexday25.classtask;
 
 
         public void display(){
-
             if (rear ==-1 && front ==-1){
 
                 System.out.print(" [ ]");
                 return;
             }
-
-
             for(int i=front;i<=rear;i++){
 
                 System.out.print(arr[i]+"  ");
@@ -93,51 +90,20 @@ package rampexday25.classtask;
             }
             System.out.println();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public static void main(String[] args) {
 
             Queue q = new Queue();
-
-
             q.enqueue(1);
             q.enqueue(2);
             q.enqueue(3);
-
             q.enqueue(4);
             q.enqueue(5);
-
             System.out.println(" removed " + q.dequeue());
             System.out.println(" removed " + q.dequeue());
             System.out.println(" removed " + q.dequeue());
             System.out.println(" removed " + q.dequeue());
             System.out.println(" removed " + q.dequeue());
             System.out.println(" removed " + q.dequeue());
-
-
-
         }
-
-
-
-
-
-
-
-
-    }
+   }
 
